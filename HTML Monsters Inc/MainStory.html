@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+ 
+.youtube {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+ 
+/* Makes the whole nav box clickable */
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+ 
+.nav-link h3 {
+  margin: 0;
+}
+ 
+.div8 h3 {
+  font-family: Book Antiqua, serif;
+  letter-spacing: 9px;
+  -webkit-text-stroke: 0.5px #134062;
+  font-size: 40px;
+}
+ 
+.div8 p {
+  font-family: Georgia, bold;
+  letter-spacing: 2px;
+  font-size: 28px;
+  line-height: 1.6;
+  padding: 0 30px;
+}
+ 
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 7;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+ 
+  background-color: #2375B3;
+  background-image: url("https://res.cloudinary.com/uwxlhnp9/image/upload/f_auto,q_auto/Untitled_design_2");
+  background-size: 190%;
+  background-position: center;
+ 
+  color: #FFFFFF;
+  font-family: Impact, "Arial", sans-serif;
+  letter-spacing: 9px;
+  font-size: 26px;
+  -webkit-text-stroke: 1px #2375B3;
+}
+ 
+.div1 .foto {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+  object-position: left center;
+  flex-shrink: 0;
+}
+ 
+.div1 h1 {
+  margin: 0 0 0 20px;
+}
+
+ 
+.div3 { grid-area: 1 / 7 / 3 / 9;
+  background-color: Blue;
+  color: Black;
+  font-family: Book Antiqua, serif;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-stroke: 0.5px #FFFFFF;
+  border: 2px solid black;
+  background: url("https://i.pinimg.com/1200x/e4/26/24/e42624b5fcf31122a4df035f434f3d80.jpg");
+  background-position: 20% 50%;
+}
+ 
+.div4 { grid-area: 1 / 9 / 3 / 11;
+  background-color: cyan;
+  color: White;
+  font-family: Book Antiqua, serif;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background: url("https://i.pinimg.com/1200x/4a/d5/e9/4ad5e97d526e07601c1a3e02fed6ea50.jpg");
+  background-position: right center;
+}
+ 
+.div5 { grid-area: 1 / 11 / 3 / 13;
+  background-color: red;
+  color: White;
+  font-family: Book Antiqua, serif;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background: url("https://i.pinimg.com/736x/5b/8b/8f/5b8b8fe06248ab506a7126b710f5e45d.jpg");
+  background-position: center;
+}
+ 
+.div6 { grid-area: 3 / 1 / 13 / 13;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VvGWojnv5dfMuDFpKrnAmeYzg7uqT0Yba-qo0QXsrQ&s=10");
+  background-size: cover;
+  background-position: center;
+  color: White;
+  font-family: Book Antiqua, serif;
+  border: 2px solid black;
+}
+ 
+.div7 { grid-area: 4 / 2 / 12 / 5;
+  background-color: Black;
+  color: White;
+  font-family: Book Antiqua, serif;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-dScnbCADroXbCNtQh9lx1L3kwpRakpzZ3fVoEotRA&s=10");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  width: 290px;
+  height: 390px;
+}
+ 
+.div8 { grid-area: 4 / 6 / 12 / 12;
+  background-color: #2375B3;
+  color: #FFFFFF;
+  border: 2px solid black;
+}
+ 
+</style>
+</head>
+<body>
+  <div class="parent">
+ 
+    <div class="div1">
+      <img src="https://res.cloudinary.com/uwxlhnp9/image/upload/f_auto,q_auto/Untitled_Design" class="foto">
+      <h1>ONSTERS, INC.</h1>
+    </div>
+ 
+    <div class="div3">
+      <a href="https://www.youtube.com/watch?v=6tCxnHCqqxg" target="_blank" class="youtube">
+        TRAILER
+      </a>
+    </div>
+ 
+  
+    <div class="div4">
+      <a href="Characters.html" class="nav-link">
+        <h3>CHARACTERS</h3>
+      </a>
+    </div>
+ 
+   
+    <div class="div5">
+      <a href="AboutUs.html" class="nav-link">
+        <h3>ABOUT US</h3>
+      </a>
+    </div>
+ 
+    <div class="div6"></div>
+ 
+    <div class="div7"></div>
+ 
+    <div class="div8">
+      <center><h3>Main Story</h3></center>
+      <center><p>Di Monstropolis, para monster mendapatkan energi dari teriakan anak-anak melalui Monsters, Inc. Sulley adalah salah satu monster terbaik dalam menakuti anak-anak dan bekerja bersama sahabatnya, Mike. Suatu malam, Sulley menemukan Boo masuk ke dunia monster dan membawanya ke tempat kerja. Sulley dan Mike mencoba menyembunyikan Boo sambil mencari cara untuk mengembalikannya. Mereka menemukan rencana jahat Randall dan mengetahui bahwa tawa anak-anak dapat menghasilkan energi. Setelah semuanya selesai, Boo berhasil diselamatkan dan Monsters, Inc. mengubah sistemnya dengan menggunakan tawa anak-anak.
+      </p></center>
+    </div>
+ 
+  </div>
+</body>
+</html>
